@@ -1,0 +1,146 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-10 18:24:17.539810",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "attach",
+  "image",
+  "barcode",
+  "button",
+  "check",
+  "colour",
+  "currency",
+  "data",
+  "column_break_cy8lj",
+  "date",
+  "datetime",
+  "float",
+  "int",
+  "todo",
+  "select",
+  "section_break_cau4c",
+  "text"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "first name"
+  },
+  {
+   "fieldname": "attach",
+   "fieldtype": "Attach",
+   "label": "attach"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "image"
+  },
+  {
+   "fieldname": "barcode",
+   "fieldtype": "Barcode",
+   "label": "barcode"
+  },
+  {
+   "fieldname": "button",
+   "fieldtype": "Button",
+   "label": "button"
+  },
+  {
+   "default": "0",
+   "fieldname": "check",
+   "fieldtype": "Check",
+   "label": "check"
+  },
+  {
+   "fieldname": "colour",
+   "fieldtype": "Color",
+   "label": "colour"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Currency",
+   "label": "currency"
+  },
+  {
+   "fieldname": "data",
+   "fieldtype": "Data",
+   "label": "data"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "date"
+  },
+  {
+   "fieldname": "datetime",
+   "fieldtype": "Datetime",
+   "label": "datetime"
+  },
+  {
+   "fieldname": "float",
+   "fieldtype": "Float",
+   "label": "float"
+  },
+  {
+   "fieldname": "int",
+   "fieldtype": "Int",
+   "label": "int"
+  },
+  {
+   "fieldname": "todo",
+   "fieldtype": "Link",
+   "label": "link",
+   "options": "ToDo"
+  },
+  {
+   "fieldname": "select",
+   "fieldtype": "Select",
+   "label": "select",
+   "options": "a\nb\nc"
+  },
+  {
+   "fieldname": "text",
+   "fieldtype": "Text",
+   "label": "text"
+  },
+  {
+   "fieldname": "column_break_cy8lj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_cau4c",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-10 19:15:35.222866",
+ "modified_by": "Administrator",
+ "module": "Programming Module",
+ "name": "demo Doctype",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
